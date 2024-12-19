@@ -1,0 +1,12 @@
+# server {
+#
+#     server_name example.com;
+#
+#     listen 80;
+#     listen [::]:80;
+#
+#     location / {
+#         return 307 https://example.com;
+#     }
+#
+# }
